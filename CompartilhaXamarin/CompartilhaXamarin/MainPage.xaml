@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CompartilhaXamarin"
+             x:Class="CompartilhaXamarin.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="btnMsg" Text="Mensagem" Clicked="BtnMsg_Clicked"/>
+            <Button x:Name="btnNav" Text="Navegador" Clicked="btnNav_Clicked"/>
+            <Button x:Name="btnTransf" Text="Area de Trabalho" Clicked="btnTransfer_Clicked"/>
+            <Entry x:Name="entry"/>
+        
+
+      
+            <Button x:Name="btnTake" Text="Da Camera" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="btnUpload" Text="Minhas Imagens" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="btnSemImg" Text="Sem Imagem" HorizontalOptions="FillAndExpand"/>
+        
+
+            <Image x:Name="imgFoto" HeightRequest="150"/>
+        </StackLayout>    
+    </ContentPage.Content>
+</ContentPage>
